@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/sprite.css">
+    <link rel="stylesheet" href="css/lacuna.css">
+    <title>Jogo da forca</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="https://cdn-icons-png.flaticon.com/512/123/123985.png" alt="Logo Alura" style="width: 70px;"> </a>
+            </div>
+            <div class="menu">
+                <nav>
+                <a href="paginaInicial.html">home</a>
+                <a href="forca.html">Jogo</a>
+                </nav>
+            </div> 
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="jogo-todo">
+    <div class="jumbotron">
+        <h2 class="titulo-jogo">JOGO DA FORCA</h2>
+    </div>
+    <div class="container">
+     <div class="sprite"></div>
+
+    <ul class="lacunas text-center"></ul>
+    <div class="text-center">
+        <input id="entrada"
+         class="entrada" 
+         placeholder="Digite a palavra secreta..." autofocus>
+        </div>
+
+        <!-- <div class="letras-erradas-container">
+            <h3>Letras usadas:</h3>
+        </div>
+        
+        <div class="palavra-secreta-container"></div>
+
+        <div class="aviso-palavra-repetida">
+            Você já usou essa letra!
+        </div> -->
+
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/sprite.js"></script>
+    <script src="js/jogo.js"></script>
+    <script src="js/controller.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        criaController(
+            criaJogo(
+                createSprite('.sprite')
+            )).inicia()
+    </script>
+</body>
+</html>

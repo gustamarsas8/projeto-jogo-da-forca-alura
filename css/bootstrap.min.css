@@ -1,0 +1,146 @@
+ul.lacunas.text-center {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+.text-center {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+}
+input#entrada {
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+    border: 2px solid #a9a9a9!important;
+    border-radius: 10px;
+    color: #1c1b1b;
+    outline:  none;
+    font-family: 'Koulen', cursive;
+    padding: 10px;
+}
+
+.lacuna {
+    display: flex!important;
+    font-size: 3em!important;
+    padding: 0px 20px 0px 20px!important;
+    margin: 1%;
+    border-radius: 8px;
+    border: 2px solid #a9a9a9!important;
+    color: hsl(0, 2%, 11%);
+    font-family: 'Koulen', cursive;
+    align-items: flex-end;
+}
+
+h2.titulo-jogo {
+    text-align: center;
+    font-size: 42px;
+    color: #1135ba;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-family: 'Koulen', cursive;
+}
+html {
+    background: url(../img/depositphotos_41193121-stock-photo-mini-hollywood.jpg) no-repeat;
+    background-size: cover;
+}
+.jogo-todo {
+    background-color: #ffffff;
+    border: 2px solid #1136ba85;
+    border-radius: 8px;
+    padding: 40px;
+    width: 50%;
+    margin:auto;
+    height: 100%;
+}
+.container {
+    width: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root {
+    font-size: 62.5%; /* 1rem = 10 px */
+}
+
+body {
+    font-family: 'Koulen', cursive;
+    font-size: 1.6rem;
+}
+
+
+header {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1rem;
+}
+
+.menu {
+    width: 50%;
+    
+}
+
+.menu nav a {
+    color: #1136ba85;
+    font-size: 30px;
+    margin: 2rem;
+    justify-content:space-between;
+
+}
+.menu nav a:hover {
+    color: #09174d85;
+    font-size: 30px;
+    margin: 2rem;
+    justify-content:space-between;
+
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    margin-top:2rem;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    font-family: 'Akshar', sans-serif;
+    background-color:#214ce6;
+    width: 31.7rem;
+    height: 10rem;
+    border: none;
+    border-radius: 2.4rem;
+    box-shadow: .4rem .5rem .4rem rgba(0, 0, 0, 0.25);
+    font-weight: 400;
+    font-size: 30px;
+    color: #ffffff;
+
+}
+
+@keyframes anima {
+     from {
+         transform: scale(1);
+     }
+     to {
+         transform: scale(1.02);
+     }
+}
+
+button:hover {
+    animation-name: anima;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction:alternate ;
+    cursor: pointer;     
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
